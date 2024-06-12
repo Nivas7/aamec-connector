@@ -1,0 +1,25 @@
+{
+  "name": "aamec-connector-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "dev": "nodemon backend/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "type": "module",
+  "license": "GNU General Public License v3.0",
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "quagga": "^0.12.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.3"
+  }
+}
